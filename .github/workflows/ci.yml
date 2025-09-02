@@ -19,7 +19,7 @@ jobs:
       uses: docker/setup-buildx-action@v3
       
     - name: Build ISO
-      run: ./bin/omarchy-iso-make
+      run: ./bin/omarchy-iso-make --no-boot-offer
         
     
     - name: Upload ISO artifact
