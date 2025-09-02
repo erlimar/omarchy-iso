@@ -12,12 +12,12 @@ BUILD_ROOT=$(realpath "${BASH_SOURCE[0]%/*}/..")
 BUILD_RELEASE_PATH="$BUILD_ROOT/release"
 mkdir -p "$BUILD_RELEASE_PATH"
 
-OMARCHY_CONFIGURATOR_REPO="${OMARCHY_CONFIGURATOR_REPO:-omacom-io/omarchy-configurator}"
+OMARCHY_CONFIGURATOR_REPO="${OMARCHY_CONFIGURATOR_REPO:-erlimar/omarchy-configurator}"
 OMARCHY_CONFIGURATOR_REF="${OMARCHY_CONFIGURATOR_REF:-master}"
 
-OMARCHY_INSTALLER_REPO="${OMARCHY_INSTALLER_REPO:-basecamp/omarchy}"
+OMARCHY_INSTALLER_REPO="${OMARCHY_INSTALLER_REPO:-erlimar/omarchy}"
 OMARCHY_INSTALLER_REF="${OMARCHY_INSTALLER_REF:-master}"
-OMARCHY_INSTALLER_URL="${OMARCHY_INSTALLER_URL:-https://omarchy.org/install}"
+OMARCHY_INSTALLER_URL="${OMARCHY_INSTALLER_URL:-https://raw.githubusercontent.com/erlimar/omarchy/refs/heads/master/boot.sh)}"
 
 DOCKER_ARGS=(
   --rm

@@ -69,6 +69,6 @@ EOF
   chmod 440 /mnt/etc/sudoers.d/99-omarchy-installer
 
   # Run Omarchy web installer
-  OMARCHY_INSTALL_URL=$(cat omarchy_installer_url.txt 2>/dev/null || echo "https://omarchy.org/install")
+  OMARCHY_INSTALL_URL=$(cat omarchy_installer_url.txt 2>/dev/null || echo "https://raw.githubusercontent.com/erlimar/omarchy/refs/heads/master/boot.sh")
   chroot_bash -lc "curl -fsSL $OMARCHY_INSTALL_URL | bash || bash"
 fi

@@ -105,7 +105,7 @@ curl -fsSL -o "airootfs/root/configurator" \
   "https://raw.githubusercontent.com/$OMARCHY_CONFIGURATOR_REPO/$OMARCHY_CONFIGURATOR_REF/configurator"
 
 # Clone Omarchy itself
-git clone -b dev --single-branch https://github.com/basecamp/omarchy.git "$cache_dir/airootfs/root/omarchy"
+git clone -b dev --single-branch https://github.com/erlimar/omarchy.git "$cache_dir/airootfs/root/omarchy"
 
 # We add in our auto-start applications
 # First we'll check for an active internet connection
