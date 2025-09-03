@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+env:
+  ISO_NAME: ${{ vars.ISO_NAME || "omarchy" }}
+  RELEASE_DATE: ${{ format('{0:yyyyMMdd}', github.event.issue.created_at) }}
+
 jobs:
   build-iso:
     runs-on: ubuntu-latest
@@ -25,5 +29,5 @@ jobs:
     - name: Upload ISO artifact
       uses: actions/upload-artifact@v4
       with:
-        name: omarchy-iso-${{ github.run_number }}
+        name: ${{ env.ISO_NAME }}-iso-${{ env.RELEASE_DATE }}
         path: release/*.iso
