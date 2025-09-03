@@ -1,10 +1,10 @@
 # Omarchy ISO
 
-The Omarchy ISO streamlines [the installation of Omarchy](https://learn.omacom.io/2/the-omarchy-manual/50/getting-started). It includes the [Omarchy Configurator](https://github.com/omacom-io/omarchy-configurator) as a front-end to archinstall and automatically launches the [Omarchy Installer](https://github.com/basecamp/omarchy) after base arch has been setup.
+The Omarchy ISO streamlines [the installation of Omarchy](https://learn.omacom.io/2/the-omarchy-manual/50/getting-started). It includes the [Omarchy Configurator](https://github.com/erlimar/omarchy-configurator) as a front-end to archinstall and automatically launches the [Omarchy Installer](https://github.com/erlimar/omarchy) after base arch has been setup.
 
 ## Downloading the latest ISO
 
-[Download Omarchy Online ISO](https://iso.omarchy.org/omarchy-online.iso) (1.4GB)
+[Download original Omarchy Online ISO](https://iso.omarchy.org/omarchy-online.iso) (1.4GB)
 
 ## Creating the ISO
 
